@@ -4,7 +4,8 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png"> <!-- favicon things -->
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-  <link rel="manifest" href="/favicon/site.webmanifest"> <!-- Adding a title tab icon -->
+  <link rel="manifest" href="/favicon/site.webmanifest">
+   <!-- Adding a title tab icon -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"> <!-- Bootstrap Links -->
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script> <!-- More Bootstrap links -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script> <!-- Even more Bootstrap links -->
@@ -23,30 +24,22 @@
         </p> <!-- Closing tags -->
      </nav> <!-- "" -->
      <div class="container"> <!-- Creating a div with bootstrap class "container" that will hold all of our form options -->
-      <form action = "https://app.bakedbeanlol.repl.co/webhook" method = "post"> <!-- Opening form tags-->
+      <form action = "https://app.bakedbeanlol.repl.co/minecraft" method = "post"> <!-- Opening form tags-->
 <br> <!-- page break -->
-         <h1>Sign Up For Club</h1> <!-- header -->
+         <h1>Register Yourself for LPHS Minecraft</h1> <!-- header -->
 <br> <!-- another page break -->
 
 <!-- Each following comment will be referencing the piece of code above them for easier reading and formatting -->
 
-         <p><input type="text" pattern="[A-Za-z]+" class="form-control" name="name" placeholder="Given Name (First Name)" maxlength="25"required/></p>
+         <p><input type="text"  class="form-control" name="mojanguser" placeholder="Mojang Username" maxlength="25"required/></p>
 <!-- input section for the user's first name (given name) that has a specific validation pattern that restricts the name to only a single word with Letters A-z capital and lowercase -->
-         <p><select name="year" class="form-control"> 
-            <option>Year 9</option>
-            <option>Year 10</option>
-            <option>Year 11</option>
-            <option>Year 12</option>
-            <option>Year 13</option>
-        </select></p>
-<!-- A selection box for the users year level, a lot easier to use than restricting a specific pattern on the input-->
-         <p><input pattern=".+#\d{4}" class="form-control" name = "discordtag" placeholder = "Discord Tag" maxlength="30" required/></p>
+         <p><input pattern=".+#\d{4}" class="form-control" name = "discorduser" placeholder = "Discord Tag" maxlength="30" required/></p>
 <!-- An input section for user's discord tag with a specific validation pattern to ensure the format NAME#1234-->
-         <p><input type="email" class="form-control" name="email" placeholder="LPHS Email Address" maxlength="50" required/></p>
+         <p><input type="email" class="form-control" name="email2" placeholder="LPHS Email Address" maxlength="50" required/></p>
 <!-- Input for email with specific validation pattern to ensure the email format is used-->
          <p><input class="btn btn-primary" type = "submit" value = "Submit" /></p>
 <!-- Submit value for the form -->
-         <a href="minecraft.html">Click Here To Sign Up For The Minecraft Server</a>
+        <a href="index.html">Click Here To Go Back To The Main Sign Up Page</a> <!-- links to go between pages -->
       </form>   <!-- Closing Tags-->
     </div> <!-- "" -->
    </body> <!-- "" -->
